@@ -1,6 +1,9 @@
 c0 = int(input("Input in a number except higher than 1:"))
 steps = 0
 
+if c0 <=1:
+    c0 = int(input("Input in a number except higher than 1:"))
+    
 while c0 != 1:
     if c0 %2 == 0:
         c0 = c0//2
