@@ -1,4 +1,4 @@
-c0 = int(input("Input in a number except higher than 0:"))
+c0 = int(input("Input in a number except higher than 1:"))
 steps = 0
 
 while c0 != 1:
